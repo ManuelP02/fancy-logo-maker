@@ -8,7 +8,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "run": "node index.js"
   },
   "keywords": [],
@@ -16,8 +16,5 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^8.2.4"
-  },
-  "devDependencies": {
-    "jest": "^29.7.0"
   }
 }
